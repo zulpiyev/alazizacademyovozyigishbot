@@ -1,0 +1,20 @@
+FOIZ CARD YANGILANISHINI O'RNATISH
+
+1. Ishlayotgan bot terminalida CTRL + C bosing.
+2. Patch ZIP ichidagi "app" papkasini mavjud loyiha papkasiga ko'chiring.
+3. Windows "Replace the files in the destination / Файлы с заменой" desa, almashtirishni tasdiqlang.
+4. .env va data papkasiga tegmang — eski token va ovozlar saqlanadi.
+5. Terminalda virtual muhitni yoqing:
+
+   .venv\Scripts\Activate.ps1
+
+6. Botni qayta ishga tushiring:
+
+   python bot.py
+
+YANGI KO'RINISH:
+- Ovozdan keyin faqat foizlar card ko'rinishida chiqadi.
+- Filial nomi o'quvchi ismidan oldin chiqadi.
+- Foiz har bir o'quvchining aynan o'z qatori yonida chiqadi.
+- Tanlangan o'quvchi ✅ bilan belgilanadi.
+- Ovoz soni, jami ovoz va vaqt ko'rsatilmaydi.

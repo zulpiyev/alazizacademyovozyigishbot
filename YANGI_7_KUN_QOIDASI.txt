@@ -1,0 +1,7 @@
+YANGILANISHLAR
+
+1. /start da Ovoz berish va Statistika chiqadi.
+2. Ovoz berish bosilganda barcha 9 ta fan bitta ustunda chiqadi.
+3. O‘quvchi ro‘yxatidagi ortiqcha 3 qator izoh olib tashlandi.
+4. Tanlov birinchi ishga tushishda 7 kunlik yaratiladi. Bot qayta ishga tushsa vaqt qaytadan boshlanmaydi.
+5. Muddat tugagach “Vaqt tugadi” chiqadi va faqat Statistika tugmasi qoladi.

@@ -1,0 +1,10 @@
+YANGI OVOZ BERISH QOIDALARI
+
+1. Oqim: Ovoz berish → Fan → 1–6-sinflar yoki 7–11-sinflar → O‘quvchi.
+2. Har bir bo‘limda bazada nechta faol o‘quvchi bo‘lsa, aynan shuncha ko‘rinadi.
+   O‘quvchilar soni 10 taga majburlanmaydi.
+3. Har bir Telegram foydalanuvchisi har bir Fan + Sinf bo‘limiga faqat 1 marta ovoz bera oladi.
+4. Ovoz berilgach popup chiqmaydi. Chat ichida “Ovoz qabul qilindi” yozuvi chiqadi.
+5. Shu bo‘limdagi barcha o‘quvchilarning ovoz soni va foizi ko‘rsatiladi.
+6. Qayta ovoz berilsa “Ovoz qabul qilinmadi” yozuvi va joriy natijalar ko‘rsatiladi.
+7. Admin qo‘shgan/o‘chirgan o‘quvchilar bot qayta ishga tushganda saqlanadi.

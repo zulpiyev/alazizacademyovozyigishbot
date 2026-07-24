@@ -1,0 +1,16 @@
+YANGI XABARLAR PASTDAN CHIQISH TARTIBI
+=======================================
+
+Endi tugma bosilganda oldingi xabar tahrirlanmaydi.
+
+/start menyusi o‘z joyida qoladi.
+🗳 Ovoz berish bosilganda fanlar yangi xabar sifatida pastidan chiqadi.
+Fan tanlanganda fanlar xabari qoladi va sinflar pastidan chiqadi.
+Sinf tanlanganda sinflar xabari qoladi va o‘quvchilar pastidan chiqadi.
+O‘quvchi tanlanganda o‘quvchilar xabari qoladi va ovoz natijalari pastidan chiqadi.
+
+Ovoz berish qoidasi o‘zgarmadi:
+- har bir Fan + Sinf bo‘yicha faqat bitta ovoz;
+- qayta ovoz berilsa qabul qilinmaydi;
+- barcha o‘quvchilar ovoz soni va foizi bilan ko‘rsatiladi;
+- 7 kun tugagach faqat statistika ishlaydi.

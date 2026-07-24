@@ -1,0 +1,14 @@
+OVOZDAN KEYINGI NATIJA YANGILANDI
+
+- Ovoz berilgandan keyin uzun statistika chiqarilmaydi.
+- Natijalar bitta card ko‘rinishida chiqadi.
+- Har bir o‘quvchining ovoz foizi aynan o‘sha o‘quvchi qatorining yonida ko‘rsatiladi.
+- Har bir qatorda avval filial, keyin o‘quvchi ismi va foiz chiqadi.
+- Ovoz soni, jami ovoz, o‘quvchilar soni va qolgan vaqt olib tashlandi.
+- Foydalanuvchi tanlagan o‘quvchi ✅ belgisi bilan ajratiladi.
+
+Misol:
+╭──── 📊 FOIZ NATIJALARI ────╮
+│ ✅ 🏫 Chinoz — Normuxamedova Madina — 📈 100.0%
+│ 🏫 Farovon — TOLIBJONOV JAMSHID — 📈 0.0%
+╰────────────────────────────╯

@@ -1,0 +1,23 @@
+MAJBURIY 2 TA KANALGA OBUNA — YANGILANISH
+
+1. /start bosilganda 2 ta kanal tugmasi chiqadi.
+2. Foydalanuvchi ikkala kanalga obuna bo‘lishi kerak.
+3. "Obunani tekshirish" bosilgandan keyin bosh menyu ochiladi.
+4. Eski ovoz tugmalari bosilsa ham obuna qayta tekshiriladi.
+5. Obuna bo‘lmagan foydalanuvchining ovozi qabul qilinmaydi.
+6. Statistika va admin /result funksiyasi o‘zgarmaydi.
+
+.env FAYLIGA QO‘SHING:
+
+REQUIRED_CHANNEL_1_ID=@alaziz_academy
+REQUIRED_CHANNEL_1_NAME=Al-Aziz Academy
+REQUIRED_CHANNEL_1_URL=https://t.me/alaziz_academy
+REQUIRED_CHANNEL_2_ID=@abdulaziz_avazovichY
+REQUIRED_CHANNEL_2_NAME=Abdulaziz Avazovich
+REQUIRED_CHANNEL_2_URL=https://t.me/abdulaziz_avazovichY
+
+MUHIM:
+- Botni ikkala kanalga ham administrator qiling.
+- Ochiq kanal ID: @username
+- Yopiq kanal ID: -100 bilan boshlanadigan raqam
+- Yopiq kanal URL: kanalning taklif havolasi

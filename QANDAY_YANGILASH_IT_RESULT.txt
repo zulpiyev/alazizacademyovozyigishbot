@@ -1,0 +1,14 @@
+PATCH ZIP ORQALI YANGILASH
+
+1. Bot ishlayotgan terminalda CTRL + C bosing.
+2. PATCH ZIP ichidagi fayllarni eski loyiha papkangizga ko‘chiring.
+3. Windows "Replace files / Заменить файлы" desa tasdiqlang.
+4. .env va data papkasini o‘chirmang — token va eski ovozlar saqlanadi.
+5. PowerShell:
+
+   cd C:\Users\User\Desktop\alaziz-voting-bot-bosqichlar-pastdan
+   .\.venv\Scripts\Activate.ps1
+   python bot.py
+
+Bot ishga tushganda eski IT-dasturlash ma’lumotlarini IT ga avtomatik ko‘chiradi.
+Admin natija Excelini olish uchun Telegram’da /result yuboradi.

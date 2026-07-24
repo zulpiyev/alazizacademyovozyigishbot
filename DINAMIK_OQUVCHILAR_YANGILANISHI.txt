@@ -1,0 +1,9 @@
+DINAMIK O‘QUVCHILAR YANGILANISHI
+
+- Har bir Fan + Sinf bo‘limida nechta faol o‘quvchi bo‘lsa, shuncha ko‘rinadi.
+- O‘quvchilar soni 10 taga majburlanmaydi.
+- Yangi bo‘sh bazadagi namuna guruhlar ham turli sonlarda: 12–18 ta.
+- Admin qo‘shgan yoki o‘chirgan o‘quvchilar qayta ishga tushganda saqlanadi.
+- Har bir foydalanuvchi har bir Fan + Sinf bo‘limiga 1 marta ovoz beradi.
+- Ovozdan keyin popup yo‘q: qabul qilindi/qilinmadi va barcha natijalar chatda chiqadi.
+- Har bir o‘quvchi uchun ovoz soni va foizi ko‘rsatiladi.

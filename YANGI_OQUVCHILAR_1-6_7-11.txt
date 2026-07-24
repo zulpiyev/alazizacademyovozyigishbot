@@ -1,0 +1,18 @@
+YANGILANISH — 24.07.2026
+
+1. 129 ta o‘quvchi bot ichiga joylandi.
+2. Sinf bo‘limlari:
+   - 1–6-sinflar: 64 ta o‘quvchi
+   - 7–11-sinflar: 65 ta o‘quvchi
+3. Ovoz berish tugmasida filial nomi ism-familiyadan OLDIN chiqadi:
+   🏫 Filial — F.I.SH
+4. Fan nomlari bir xil ko‘rinishga keltirildi:
+   ENGLISH -> Ingliz tili
+   MATEM/MATEMATIKA -> Matematika
+   HAMSHIRA/XAMSHIRALIK -> Hamshiralik
+   MENTAL -> Mental arifmetika
+5. 1-7 deb berilgan qatorlar 1–6 bo‘limiga joylandi.
+6. Niyozbosh / Koreys tili / 1–6 qatorida ism bo‘sh bo‘lgani uchun qo‘shilmadi.
+7. "KICHKINALAR OQIMAYDI" o‘quvchi emasligi uchun qo‘shilmadi.
+8. Navruzdagi sinfi bo‘sh qatorlar ketma-ketlik asosida 1–6 va 7–11 ga ajratildi.
+9. Eski demo o‘quvchilar bazadan o‘chirilmaydi, faqat nofaol qilinadi; eski ovozlar saqlanadi.

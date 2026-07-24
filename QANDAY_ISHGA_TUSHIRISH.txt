@@ -1,0 +1,10 @@
+1. ZIP faylni papkaga chiqaring.
+2. START_BOT.bat faylini ikki marta bosing.
+3. Birinchi safar Notepad ochiladi.
+4. BOT_TOKEN joyiga BotFather bergan tokenni yozing.
+5. ADMIN_IDS joyiga Telegram raqamli ID'ingizni yozing.
+6. Saqlang va Notepadni yoping.
+7. Bot ishga tushadi.
+
+PostgreSQL kerak emas.
+SQLite baza avtomatik data\alaziz_voting.db faylida yaratiladi.

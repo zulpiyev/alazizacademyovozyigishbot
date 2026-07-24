@@ -1,0 +1,9 @@
+YANGI /result EXCEL YANGILANISHI
+
+1. Admin /result yuborganda Excel fayl keladi.
+2. 1–2–3-o‘rinlar varaqlari saqlanadi.
+3. Har bir fan alohida Excel varag‘ida chiqadi.
+4. Har bir fan varag‘ida barcha faol o‘quvchilar ko‘rsatiladi.
+5. Ustunlar: O‘rin, F.I.SH, Filial, Fan, Sinf, Ovozlar, Guruh jami, Foiz, Tanlov.
+6. 0 ovoz olgan o‘quvchilar ham ro‘yxatda chiqadi, lekin o‘rni "-" bo‘ladi.
+7. Foiz shu fan va sinf guruhidagi jami ovozdan avtomatik hisoblanadi.

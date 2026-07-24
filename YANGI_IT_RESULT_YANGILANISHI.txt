@@ -1,0 +1,18 @@
+YANGI YANGILANISHLAR
+
+1. IT va IT-DASTURLASH bitta IT faniga birlashtirildi.
+   - ABDUJAMALOV ABDULLOH — Kasblar — IT — 1–6
+   - TOJIBOYEVA DILNURA — Kasblar — IT — 7–11
+   - Eski bazadagi IT-dasturlash o‘quvchilari va ovozlari avtomatik IT ga ko‘chadi.
+
+2. VAQT TUGAGANDA
+   - Ovoz berish tugmasi bosh menyudan yo‘qoladi.
+   - Eski ovoz berish tugmasi bosilsa ham ovoz qabul qilinmaydi.
+   - Statistika barcha foydalanuvchilar uchun ochiq qoladi.
+
+3. ADMIN /result
+   - Admin /result deb yozadi.
+   - Bot Fan + Sinf bo‘yicha 1-, 2-, 3-o‘rinlarni Excel faylda yuboradi.
+   - Excelda 1–2–3-o‘rinlar, 1–6, 7–11 va har bir fan uchun alohida varaqlar mavjud.
+   - Fan varaqlarida barcha qatnashgan o‘quvchilar, ovoz va foizlari ko‘rsatiladi.
+   - 0 ovozli o‘quvchilar ham ro‘yxatda qoladi, lekin o‘rni "-" bo‘ladi.
