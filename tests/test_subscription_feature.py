@@ -5,6 +5,7 @@ from aiogram.enums import ChatMemberStatus
 from app.config import Settings
 from app.keyboards.common import subscription_kb
 from app.services.subscription_service import _is_member
+from app.utils.subscription_text import subscription_required_text
 
 
 def test_required_channels_are_parsed_from_settings():
@@ -54,3 +55,10 @@ def test_member_statuses_are_accepted():
     )
     assert not _is_member(SimpleNamespace(status=ChatMemberStatus.LEFT))
     assert not _is_member(SimpleNamespace(status=ChatMemberStatus.KICKED))
+
+
+def test_subscription_check_failure_message_is_user_friendly():
+    text = subscription_required_text(channel_count=2, check_failed=True)
+    assert "Oldin kanallarga obuna bo‘ling" in text
+    assert "administrator ekanini tekshiring" not in text
+    assert "Obunani tekshirishda xato" not in text

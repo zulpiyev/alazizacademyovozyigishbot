@@ -14,8 +14,5 @@ def subscription_required_text(
         "ℹ️ Instagram obunasi oddiy havola orqali ochiladi va avtomatik tekshirilmaydi."
     )
     if check_failed:
-        text += (
-            "\n\n⚠️ Obunani tekshirishda xato bo‘ldi. "
-            "Bot barcha kanallarda administrator ekanini tekshiring."
-        )
+        text += "\n\n⚠️ <b>Oldin kanallarga obuna bo‘ling.</b>"
     return text
