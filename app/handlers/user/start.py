@@ -21,11 +21,15 @@ router = Router(name="user_start")
 
 
 async def _start_text_and_keyboard(
-    session: AsyncSession, telegram_id: int, bot: Bot
+    session: AsyncSession,
+    telegram_id: int,
+    bot: Bot,
+    *,
+    skip_subscription_check: bool = False,
 ):
     settings = get_settings()
     channels = settings.required_channels
-    if channels:
+    if channels and not skip_subscription_check:
         check = await check_required_subscriptions(bot, telegram_id, channels)
         if not check.subscribed:
             return (
@@ -106,18 +110,48 @@ async def home_handler(
 async def subscription_check_handler(
     callback: CallbackQuery, session: AsyncSession
 ) -> None:
-    if callback.from_user:
-        await upsert_user(session, callback.from_user)
-        text, keyboard = await _start_text_and_keyboard(
-            session, callback.from_user.id, callback.bot
-        )
-    else:
-        text, keyboard = (
+    if not callback.from_user:
+        await edit_or_send(
+            callback,
             "❌ Foydalanuvchi ma’lumoti topilmadi.",
             main_menu_kb(voting_enabled=False),
         )
+        await answer_callback(
+            callback, "❌ Foydalanuvchi ma’lumoti topilmadi.", True
+        )
+        return
+
+    await upsert_user(session, callback.from_user)
+    settings = get_settings()
+    channels = settings.required_channels
+
+    if channels:
+        check = await check_required_subscriptions(
+            callback.bot, callback.from_user.id, channels
+        )
+        if not check.subscribed:
+            # Xabar oldingidek qolib ketgan taqdirda ham foydalanuvchi
+            # tugma ishlaganini alert orqali aniq ko‘radi.
+            await edit_or_send(
+                callback,
+                subscription_required_text(len(channels), check_failed=True),
+                subscription_kb(
+                    channels, settings.instagram_name, settings.instagram_url
+                ),
+            )
+            await answer_callback(
+                callback, "⚠️ Oldin kanallarga obuna bo‘ling.", True
+            )
+            return
+
+    text, keyboard = await _start_text_and_keyboard(
+        session,
+        callback.from_user.id,
+        callback.bot,
+        skip_subscription_check=True,
+    )
     await edit_or_send(callback, text, keyboard)
-    await answer_callback(callback)
+    await answer_callback(callback, "✅ Obuna tasdiqlandi!")
 
 
 @router.callback_query(F.data == "main:about")

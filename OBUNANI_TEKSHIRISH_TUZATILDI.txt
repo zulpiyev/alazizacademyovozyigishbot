@@ -1,0 +1,2 @@
+Obunani tekshirish tugmasi yangilandi.
+Obuna bo'lmasa alert, obuna bo'lsa tasdiq xabari va bosh menyu chiqadi.
