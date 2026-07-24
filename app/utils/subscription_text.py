@@ -9,9 +9,7 @@ def subscription_required_text(
         "🔒 <b>Ovoz berishdan oldin sahifalarga obuna bo‘ling</b>\n\n"
         f"Quyidagi {count_text} Telegram kanalga obuna bo‘ling va "
         "Instagram sahifamizni kuzatib qo‘ying. So‘ng "
-        "<b>✅ Obunani tekshirish</b> tugmasini bosing.\n\n"
-        "Telegram kanallarga obuna bo‘lmaguncha ovoz berish ochilmaydi.\n"
-        "ℹ️ Instagram obunasi oddiy havola orqali ochiladi va avtomatik tekshirilmaydi."
+        "<b>✅ Obunani tekshirish</b> tugmasini bosing."
     )
     if check_failed:
         text += "\n\n⚠️ <b>Oldin kanallarga obuna bo‘ling.</b>"
