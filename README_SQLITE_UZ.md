@@ -63,6 +63,8 @@ REQUIRED_CHANNEL_1_URL=https://t.me/alaziz_academy
 REQUIRED_CHANNEL_2_ID=@abdulaziz_avazovichY
 REQUIRED_CHANNEL_2_NAME=Abdulaziz Avazovich
 REQUIRED_CHANNEL_2_URL=https://t.me/abdulaziz_avazovichY
+INSTAGRAM_NAME=Instagram — @alazizacademy
+INSTAGRAM_URL=https://www.instagram.com/alazizacademy/
 ```
 
 Botni ikkala kanalga administrator qiling. Aks holda bot foydalanuvchining obunasini ishonchli tekshira olmaydi.

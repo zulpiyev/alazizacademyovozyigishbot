@@ -169,3 +169,10 @@ Admin qo‘shgan yoki o‘chirgan o‘quvchilar bot qayta ishga tushganda saqlan
 Ovoz berilgach, popup chiqmaydi: “Ovoz qabul qilindi” yoki “Ovoz qabul
 qilinmadi” xabari va barcha o‘quvchilarning ovoz/foiz natijalari chat ichida
 ko‘rsatiladi.
+
+
+## Instagram havolasi
+
+Majburiy obuna oynasida `📸 Instagram — @alazizacademy` tugmasi ko‘rsatiladi.
+Instagram oddiy havola sifatida ishlaydi; bot Instagram obunasini avtomatik tekshirmaydi.
+Telegramdagi ikki kanal obunasi esa tekshiriladi.

@@ -49,7 +49,11 @@ def cancel_admin_kb() -> InlineKeyboardMarkup:
     )
 
 
-def subscription_kb(channels) -> InlineKeyboardMarkup:
+def subscription_kb(
+    channels,
+    instagram_name: str = "Instagram — @alazizacademy",
+    instagram_url: str = "https://www.instagram.com/alazizacademy/",
+) -> InlineKeyboardMarkup:
     rows: list[list[InlineKeyboardButton]] = []
     for index, channel in enumerate(channels, start=1):
         rows.append(
@@ -60,6 +64,17 @@ def subscription_kb(channels) -> InlineKeyboardMarkup:
                 )
             ]
         )
+
+    if instagram_url.strip():
+        rows.append(
+            [
+                InlineKeyboardButton(
+                    text=f"📸 {instagram_name.strip() or '@alazizacademy'}",
+                    url=instagram_url.strip(),
+                )
+            ]
+        )
+
     rows.append(
         [
             InlineKeyboardButton(

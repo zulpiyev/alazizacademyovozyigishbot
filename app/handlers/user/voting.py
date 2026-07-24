@@ -48,11 +48,11 @@ async def _require_subscription(callback: CallbackQuery) -> bool:
     await send_below(
         callback,
         subscription_required_text(len(channels), check.check_failed),
-        subscription_kb(channels),
+        subscription_kb(channels, settings.instagram_name, settings.instagram_url),
     )
     await answer_callback(
         callback,
-        "Avval ikkala kanalga obuna bo‘ling",
+        "Avval ikkala Telegram kanalga obuna bo‘ling",
         True,
     )
     return False

@@ -30,7 +30,7 @@ async def _start_text_and_keyboard(
         if not check.subscribed:
             return (
                 subscription_required_text(len(channels), check.check_failed),
-                subscription_kb(channels),
+                subscription_kb(channels, settings.instagram_name, settings.instagram_url),
             )
 
     competition = await get_main_competition(session)

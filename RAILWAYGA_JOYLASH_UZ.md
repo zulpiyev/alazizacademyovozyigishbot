@@ -47,6 +47,8 @@ REQUIRED_CHANNEL_1_URL=https://t.me/alaziz_academy
 REQUIRED_CHANNEL_2_ID=@abdulaziz_avazovichY
 REQUIRED_CHANNEL_2_NAME=Abdulaziz Avazovich
 REQUIRED_CHANNEL_2_URL=https://t.me/abdulaziz_avazovichY
+INSTAGRAM_NAME=Instagram — @alazizacademy
+INSTAGRAM_URL=https://www.instagram.com/alazizacademy/
 ```
 
 `BOT_TOKEN` va `ADMIN_IDS` ni o‘zingiznikiga almashtiring. `DATABASE_URL` yozish shart emas — start skript Volume yo‘lini avtomatik ishlatadi.

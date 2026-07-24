@@ -24,7 +24,7 @@ def test_required_channels_are_parsed_from_settings():
     assert channels[1].chat_id == -1001234567890
 
 
-def test_subscription_keyboard_has_two_channels_and_check_button():
+def test_subscription_keyboard_has_two_channels_instagram_and_check_button():
     settings = Settings(
         BOT_TOKEN="123456:TEST_TOKEN",
         REQUIRED_CHANNEL_1_ID="@kanal_bir",
@@ -32,11 +32,17 @@ def test_subscription_keyboard_has_two_channels_and_check_button():
         REQUIRED_CHANNEL_2_ID="@kanal_ikki",
         REQUIRED_CHANNEL_2_NAME="Kanal ikki",
     )
-    markup = subscription_kb(settings.required_channels)
-    assert len(markup.inline_keyboard) == 3
+    markup = subscription_kb(
+        settings.required_channels,
+        settings.instagram_name,
+        settings.instagram_url,
+    )
+    assert len(markup.inline_keyboard) == 4
     assert markup.inline_keyboard[0][0].url == "https://t.me/kanal_bir"
     assert markup.inline_keyboard[1][0].url == "https://t.me/kanal_ikki"
-    assert markup.inline_keyboard[2][0].callback_data == "subscription:check"
+    assert markup.inline_keyboard[2][0].url == "https://www.instagram.com/alazizacademy/"
+    assert "@alazizacademy" in markup.inline_keyboard[2][0].text
+    assert markup.inline_keyboard[3][0].callback_data == "subscription:check"
 
 
 def test_member_statuses_are_accepted():

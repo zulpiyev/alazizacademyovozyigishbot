@@ -78,7 +78,12 @@ class Settings(BaseSettings):
     required_channel_2_url: str = Field(
         default="https://t.me/abdulaziz_avazovichY", alias="REQUIRED_CHANNEL_2_URL"
     )
-
+    instagram_name: str = Field(
+        default="Instagram — @alazizacademy", alias="INSTAGRAM_NAME"
+    )
+    instagram_url: str = Field(
+        default="https://www.instagram.com/alazizacademy/", alias="INSTAGRAM_URL"
+    )
 
     @staticmethod
     def _normalize_channel_id(value: str) -> int | str:
